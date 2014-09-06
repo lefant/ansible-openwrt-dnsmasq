@@ -1,0 +1,4 @@
+---
+# defaults file for openwrt-dnsmasq
+dnsmasq:
+  server: []

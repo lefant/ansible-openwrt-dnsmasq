@@ -1,0 +1,4 @@
+---
+# handlers file for openwrt-dnsmasq
+- name: reload dnsmasq
+  raw: /etc/init.d/dnsmasq reload
