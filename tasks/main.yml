@@ -6,5 +6,5 @@
     - uci commit
     - reload dnsmasq
   with_subelements:
-    - dnsmasq.server
+    - "{{ dnsmasq.server }}"
     - servers
